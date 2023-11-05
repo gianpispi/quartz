@@ -7,9 +7,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      websiteId: "bd06c24e-3a37-455b-9316-c62886e0dfe1"
     },
-    baseUrl: "gianpie.ro",
+    baseUrl: "uni.gianpie.ro",
     ignorePatterns: ["private", "templates", ".obsidian", "tesi"],
     defaultDateType: "created",
     theme: {
