@@ -8,15 +8,15 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🧬 Gianipero",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      websiteId: 'bd06c24e-3a37-455b-9316-c62886e0dfe1'
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "uni.gianpie.ro",
+    ignorePatterns: ["private", "templates", ".obsidian", "tesi", "backup"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
